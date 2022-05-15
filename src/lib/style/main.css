@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 90%;
+  line-height: 1;
+  width: 100%;
+  background: #FFFCF8;
+}
+
+:root {
+  --background: #DFE3E8;
+  --color: #212B36;
+  --shadow: 0 8px 16px 0 rgba(255, 72, 66, 0.24);
+  --border: 2px solid #FF4842;
+  --background-none: none;
+  --transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  --text-bg: #DFE3E8;
+  --bg-hover: none;
+  --text-bg-hover: #DFE3E8;
+  --text-hover: #FFF;
+  --shadow-hover: none;
+  --border-none:none;
+}
+
+.primary {
+  --background: #00AB55;
+  --color: #FFF;
+  --shadow: 0 8px 16px 0 rgba(0, 171, 85, 0.24);
+  --border: 2px solid #00AB55;
+  --background-none: none;
+  --text-bg: #00AB55;
+  --bg-hover: #007B55;
+  --text-hover: #FFF;
+  --text-bg-hover: #007B55;
+  --shadow-hover: none;
+}
+
+.secondary {
+  --background: #3366FF;
+  --color: #FFF;
+  --shadow: 0 8px 16px 0 rgba(51, 102, 255, 0.24);
+  --border: 2px solid #3366FF;
+  --background-none: none;
+  --text-bg: #3366FF;
+  --bg-hover: #1939B7;
+  --text-hover: #FFF;
+  --text-bg-hover: #1939B7;
+  --shadow-hover: none;
+}
+
+.warning {
+  --background: #FFC107;
+  --color: #212B36;
+  --shadow: 0 8px 16px 0 rgba(255, 193, 7, 0.24);
+  --border: 2px solid #FFC107;
+  --background-none: none;
+  --text-bg: #FFC107;
+  --bg-hover: #B78103;
+  --text-hover: #212B36;
+  --text-bg-hover: #B78103;
+  --shadow-hover: none;
+}
+
+.info {
+  --background: #1890FF;
+  --color: #FFF;
+  --shadow: 0 8px 16px 0 rgba(24, 144, 255, 0.24);
+  --border: 2px solid #1890FF;
+  --background-none: none;
+  --text-bg: #1890FF;
+  --bg-hover: #0C53B7;
+  --text-hover: #FFF;
+  --text-bg-hover: #0C53B7;
+  --shadow-hover: none;
+}
+
+.success {
+  --background: #54D62C;
+  --color: #FFF;
+  --shadow: 0 8px 16px 0 rgba(84, 214, 44, 0.24);
+  --border: 2px solid #54D62C;
+  --background-none: none;
+  --text-bg: #54D62C;
+  --bg-hover: #229A16;
+  --text-hover: #FFF;
+  --text-bg-hover: #229A16;
+  --shadow-hover: none;
+}
+
+.error {
+  --background: #FF4842;
+  --color: #FFF;
+  --shadow: 0 8px 16px 0 rgba(255, 72, 66, 0.24);
+  --border: 2px solid #FF4842;
+  --background-none: none;
+  --text-bg: #FF4842;
+  --bg-hover: #B72136;
+  --text-hover: #FFF;
+  --text-bg-hover: #B72136;
+  --shadow-hover: none;
+}
+
+.outline {
+  --background: var(--background-none);
+  --color: var(--text-bg);
+  --border-none:var(--border);
+}
+.outline:hover {
+  --bg-hover:var(--background-none);
+  --text-hover: var(--text-bg-hover);
+}
+
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+button {
+  padding: 6px 16px;
+  min-width: 64px;
+  font-weight: 600;
+  line-height: 1.7142857143;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin: 2px;
+  font-family: "Be Vietnam";
+  background-color: var(--background);
+  color: var(--color);
+  border: var(--border-none);
+  transition: var(--transition);
+}
+button:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-hover);
+  box-shadow: var(--shadow-hover);
+  border: var(--border-none);
+}
+
+.badge {
+  padding: 4px 8px;
+  min-width: 64px;
+  max-width: 100%;
+  font-weight: 600;
+  line-height: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px;
+  font-family: "Be Vietnam";
+  background-color: var(--background);
+  color: var(--color);
+  border: var(--border-none);
+  transition: var(--transition);
+}
+.badge:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-hover);
+  box-shadow: var(--shadow-hover);
+  border: var(--border-none);
+}
+
+/*# sourceMappingURL=main.css.map */

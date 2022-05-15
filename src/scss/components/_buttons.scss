@@ -1,0 +1,28 @@
+@use '../abstracts' as *;
+
+
+
+button{
+  padding: 6px 16px;
+  min-width:64px;
+  font-weight:600;
+  line-height:1.7142857142857142;
+  cursor:pointer;
+  border-radius:8px;
+  text-decoration:none;
+  font-size: 0.875rem;
+  margin: 2px;
+  font-family: 'Be Vietnam';
+  background-color:var(--background);
+  color:var(--color);
+  border:var(--border-none);
+ transition:var(--transition);
+  
+  &:hover{
+  background-color:var(--bg-hover);
+  color:var(--text-hover);
+  box-shadow:var(--shadow-hover);
+  border:var(--border-none);
+  }
+}
+

@@ -1,0 +1,60 @@
+
+//default
+ $default-bg:#DFE3E8;
+ $default-text:#212B36;
+ $default-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+ $default-shadow:0 8px 16px 0 rgb(255 72 66 / 24%);
+ $default-border:2px solid #FF4842;
+ $default-bg-none:none;
+ $default-shadow-none:none;
+ $text-dark:#212B36;
+ $text-light:#FFF;
+
+
+//primary
+$primary-bg:#00AB55;
+$primary-shadow:0 8px 16px 0 rgb(0 171 85 / 24%);
+$primary-border:2px solid #00AB55;
+$primary-bg-hover:#007B55;
+
+
+
+
+//secondary
+$secondary-bg:#3366FF;
+$secondary-shadow:0 8px 16px 0 rgb(51 102 255 / 24%);
+$secondary-border:2px solid #3366FF;
+$secondary-bg-hover:#1939B7;
+
+
+
+//error
+$error-bg:#FF4842;
+$error-shadow:0 8px 16px 0 rgb(255 72 66 / 24%);
+$error-border:2px solid #FF4842;
+$error-bg-hover:#B72136;
+
+
+//warning
+$warning-bg:#FFC107;
+$warning-shadow:0 8px 16px 0 rgb(255 193 7 / 24%);
+$warning-border:2px solid #FFC107;
+$warning-bg-hover:#B78103;
+
+
+
+//info
+$info-bg:#1890FF;
+$info-shadow:0 8px 16px 0 rgb(24 144 255 / 24%);
+$info-border:2px solid #1890FF;
+$info-bg-hover:#0C53B7;
+
+
+
+//success
+$success-bg:#54D62C;
+$success-shadow:0 8px 16px 0 rgb(84 214 44 / 24%);
+$success-border:2px solid #54D62C;
+$success-bg-hover:#229A16;
+
+

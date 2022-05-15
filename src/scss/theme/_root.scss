@@ -1,0 +1,146 @@
+@use '../abstracts' as *;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit; }
+
+
+html {
+  box-sizing: border-box;
+  font-size: 90%;
+  line-height: 1;
+  width: 100%;
+  background: #FFFCF8;
+}
+
+
+:root {
+  --background: #{$default-bg};
+  --color: #{$default-text};
+  --shadow: #{$default-shadow};
+  --border: #{$default-border};
+  --background-none: #{$default-bg-none};
+  --transition:#{$default-transition};
+  --text-bg: #{$default-bg};
+  --bg-hover: #{$default-bg-none};
+  --text-bg-hover: #{$default-bg};
+  --text-hover: #{$text-light};
+  --shadow-hover: #{$default-shadow-none};
+  --border-none:none;
+}
+
+
+.primary {
+  --background: #{$primary-bg};
+  --color: #{$text-light};
+  --shadow: #{$primary-shadow};
+  --border: #{$primary-border};
+  --background-none: #{$default-bg-none};
+  --text-bg: #{$primary-bg};
+  --bg-hover: #{$primary-bg-hover};
+  --text-hover: #{$text-light};
+  --text-bg-hover: #{$primary-bg-hover};
+  --shadow-hover: #{$default-shadow-none};
+}
+
+
+
+
+.secondary {
+  --background: #{$secondary-bg};
+  --color: #{$text-light};
+  --shadow: #{$secondary-shadow};
+  --border: #{$secondary-border};
+  --background-none: #{$default-bg-none};
+  --text-bg: #{$secondary-bg};
+  --bg-hover: #{$secondary-bg-hover};
+  --text-hover: #{$text-light};
+  --text-bg-hover: #{$secondary-bg-hover};
+  --shadow-hover: #{$default-shadow-none};
+  }
+
+
+.warning {
+  --background: #{$warning-bg};
+  --color: #{$text-dark};
+  --shadow: #{$warning-shadow};
+  --border: #{$warning-border};
+  --background-none: #{$default-bg-none};
+  --text-bg: #{$warning-bg};
+  --bg-hover: #{$warning-bg-hover};
+  --text-hover: #{$text-dark};
+  --text-bg-hover: #{$warning-bg-hover};
+  --shadow-hover: #{$default-shadow-none};
+  
+}
+
+
+.info {
+  --background: #{$info-bg};
+  --color: #{$text-light};
+  --shadow: #{$info-shadow};
+  --border: #{$info-border};
+  --background-none: #{$default-bg-none};
+  --text-bg: #{$info-bg};
+  --bg-hover: #{$info-bg-hover};
+  --text-hover: #{$text-light};
+  --text-bg-hover: #{$info-bg-hover};
+  --shadow-hover: #{$default-shadow-none};
+  
+}
+
+
+.success {
+  --background: #{$success-bg};
+  --color: #{$text-light};
+  --shadow: #{$success-shadow};
+  --border: #{$success-border};
+  --background-none: #{$default-bg-none};
+  --text-bg: #{$success-bg};
+  --bg-hover: #{$success-bg-hover};
+  --text-hover: #{$text-light};
+  --text-bg-hover: #{$success-bg-hover};
+  --shadow-hover: #{$default-shadow-none};
+  
+}
+
+
+.error {
+  --background: #{$error-bg};
+  --color: #{$text-light};
+  --shadow: #{$error-shadow};
+  --border: #{$error-border};
+  --background-none: #{$default-bg-none};
+  --text-bg: #{$error-bg};
+  --bg-hover: #{$error-bg-hover};
+  --text-hover: #{$text-light};
+  --text-bg-hover: #{$error-bg-hover};
+  --shadow-hover: #{$default-shadow-none};
+
+}
+
+
+
+.outline{
+    --background: var(--background-none); 
+    --color: var(--text-bg);
+    --border-none:var(--border);
+  &:hover{
+    --bg-hover:var(--background-none); 
+    --text-hover:  var(--text-bg-hover);
+
+  }
+}
+
+
+
+
+.shadow{
+    box-shadow:var(--shadow);
+
+}
