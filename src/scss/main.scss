@@ -1,3 +1,74 @@
 @use 'theme/root';
 @use 'components/buttons';
 @use 'components/badge';
+@use 'abstracts/colors' as *;
+@use 'abstracts/type-scale' as *;
+@use 'abstracts/media-query' as *;
+@use 'abstracts/font-size' as *;
+@use 'abstracts/border-radius' as *;
+
+:root {
+	@each $color, $shades in $colors {
+		@each $shade, $value in $shades {
+			--clr-#{"" + $color}-#{$shade}:#{$value};
+		}
+	}
+
+	@each $screen-size, $font-size in $type-scale {
+		@if $screen-size == small{
+			@each $size, $value in $font-size {
+				--fs-#{$size}:#{$value};
+			}
+		}@else {
+				@include mq(small) {
+					@each $size, 
+					$value in $font-size {
+						--fs-#{$size}: #{$value};
+					}
+				}
+			}
+	}
+}
+
+@each $color, $shades in $colors {
+	@each $shade, $value in $shades{
+		.text-#{"" + $color}-#{$shade}{
+			color: var(--clr-#{"" + $color}-#{$shade});
+			//color: $value;
+		}
+		.bg-#{"" + $color}-#{$shade}{
+			background-color: var(--clr-#{"" + $color}-#{$shade});
+		}
+	}
+}
+
+
+
+@each $screen-size, $font-size in $type-scale {
+      @each $size, $value in $font-size {
+      			@if $screen-size == small{
+
+      .fs-#{"" + $size}{
+			font-size: var(--fs-#{$size});
+				}
+		}
+    } 
+}
+
+
+@each $font-sizes, $shades in $font-size{
+		@each $shade, $value in $shades{
+	.text-#{$font-sizes}{
+			font-size: $shade;
+		}	
+}
+}
+
+
+@each $border-radiuses, $shades in $border-radius{
+		@each $shade, $value in $shades{
+	.border-#{$border-radiuses}{
+			border-radius: $shade;
+		}	
+}
+}

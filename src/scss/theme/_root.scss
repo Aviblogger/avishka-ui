@@ -1,5 +1,5 @@
-@use '../abstracts' as *;
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap');
+@use "../abstracts" as *;
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap");
 
 *,
 *::after,
@@ -7,17 +7,16 @@
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: inherit; }
-
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
   font-size: 90%;
   line-height: 1;
   width: 100%;
-  background: #FFFCF8;
+  background: #fffcf8;
 }
-
 
 :root {
   --background: #{$default-bg};
@@ -25,15 +24,14 @@ html {
   --shadow: #{$default-shadow};
   --border: #{$default-border};
   --background-none: #{$default-bg-none};
-  --transition:#{$default-transition};
+  --transition: #{$default-transition};
   --text-bg: #{$default-bg};
-  --bg-hover: #{$default-bg-none};
+  --bg-hover: #{$default-bg};
   --text-bg-hover: #{$default-bg};
-  --text-hover: #{$text-light};
+  --text-hover: #{$text-dark};
   --shadow-hover: #{$default-shadow-none};
-  --border-none:none;
+  --border-none: none;
 }
-
 
 .primary {
   --background: #{$primary-bg};
@@ -48,9 +46,6 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-
-
-
 .secondary {
   --background: #{$secondary-bg};
   --color: #{$text-light};
@@ -62,8 +57,7 @@ html {
   --text-hover: #{$text-light};
   --text-bg-hover: #{$secondary-bg-hover};
   --shadow-hover: #{$default-shadow-none};
-  }
-
+}
 
 .warning {
   --background: #{$warning-bg};
@@ -76,9 +70,7 @@ html {
   --text-hover: #{$text-dark};
   --text-bg-hover: #{$warning-bg-hover};
   --shadow-hover: #{$default-shadow-none};
-  
 }
-
 
 .info {
   --background: #{$info-bg};
@@ -91,9 +83,7 @@ html {
   --text-hover: #{$text-light};
   --text-bg-hover: #{$info-bg-hover};
   --shadow-hover: #{$default-shadow-none};
-  
 }
-
 
 .success {
   --background: #{$success-bg};
@@ -106,9 +96,7 @@ html {
   --text-hover: #{$text-light};
   --text-bg-hover: #{$success-bg-hover};
   --shadow-hover: #{$default-shadow-none};
-  
 }
-
 
 .error {
   --background: #{$error-bg};
@@ -121,26 +109,18 @@ html {
   --text-hover: #{$text-light};
   --text-bg-hover: #{$error-bg-hover};
   --shadow-hover: #{$default-shadow-none};
-
 }
 
-
-
-.outline{
-    --background: var(--background-none); 
-    --color: var(--text-bg);
-    --border-none:var(--border);
-  &:hover{
-    --bg-hover:var(--background-none); 
-    --text-hover:  var(--text-bg-hover);
-
+.outline {
+  --background: var(--background-none);
+  --color: var(--text-bg);
+  --border-none: var(--border);
+  &:hover {
+    --bg-hover: var(--background-none);
+    --text-hover: var(--text-bg-hover);
   }
 }
 
-
-
-
-.shadow{
-    box-shadow:var(--shadow);
-
+.shadow {
+  box-shadow: var(--shadow);
 }

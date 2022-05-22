@@ -6,7 +6,6 @@ react js custom components using avishka.css
 
 ```
 import { Button, Badge } from "avishka-ui";
-
 ```
 
 Button 
@@ -17,7 +16,6 @@ Button
 <Button color="warning">warning</Button>
 <Button color="info">info</Button>
 <Button color="success">success</Button>
-
 ``` 
 
 Badge
@@ -28,19 +26,16 @@ Badge
 <Badge color="warning">warning</Badge>
 <Badge color="info">info</Badge>
 <Badge color="success">success</Badge>
-
 ``` 
 
 Outline 
 ```
 <Button color="primary" outline="true">primary</Button>
 <Badge color="primary" outline="true">primary</Badge>
-
 ```
 
 Shadow
 ```
 <Button color="primary" shadow="true">primary</Button>
 <Badge color="primary" shadow="true">primary</Badge>
-
 ```

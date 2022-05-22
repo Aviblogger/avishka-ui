@@ -15,10 +15,18 @@ Object.defineProperty(exports, "Button", {
     return _Button.default;
   }
 });
+Object.defineProperty(exports, "Typography", {
+  enumerable: true,
+  get: function get() {
+    return _Typography.default;
+  }
+});
 
 var _Badge = _interopRequireDefault(require("./components/Badge"));
 
 var _Button = _interopRequireDefault(require("./components/Button"));
+
+var _Typography = _interopRequireDefault(require("./components/Typography"));
 
 require("./style/main.css");
 

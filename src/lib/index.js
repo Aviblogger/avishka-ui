@@ -1,5 +1,7 @@
-import Badge from './components/Badge';
-import Button from './components/Button';
-import './style/main.css'
+import Badge from "./components/Badge";
+import Button from "./components/Button";
+import Typography from "./components/Typography";
 
-export { Badge, Button };
+import "./style/main.css";
+
+export { Badge,Button, Typography };
