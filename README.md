@@ -3,13 +3,29 @@ react js custom components using avishka.css
 
 👉  [Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
 
+```
+npm i avishka-ui
+```
+or
+```
+yarn add avishka-ui
+```
 
 ```
 import { Button, Badge } from "avishka-ui";
 ```
 
-##### Button 
+for next.js
 ```
+import { Button, Badge } from "avishka-ui/next";
+
+import 'avishka-ui/dist/style/main.css'
+
+```
+
+
+### Button 
+```jsx
 <Button color="primary">primary</Button>
 <Button color="secondary">secondary</Button>
 <Button color="error">error</Button>
@@ -18,8 +34,8 @@ import { Button, Badge } from "avishka-ui";
 <Button color="success">success</Button>
 ``` 
 
-##### Badge
-```
+### Badge
+```jsx
 <Badge color="primary">primary</Badge>
 <Badge color="secondary">secondary</Badge>
 <Badge color="error">error</Badge>
@@ -28,14 +44,20 @@ import { Button, Badge } from "avishka-ui";
 <Badge color="success">success</Badge>
 ``` 
 
-###### Outline 
-```
+#### Outline 
+```jsx
 <Button color="primary" outline="true">primary</Button>
 <Badge color="primary" outline="true">primary</Badge>
 ```
 
-###### Shadow
-```
+#### Shadow
+```jsx
 <Button color="primary" shadow="true">primary</Button>
 <Badge color="primary" shadow="true">primary</Badge>
+```
+
+#### Outline and Shadow
+```jsx
+<Button color="primary" outline="true" shadow="true">primary</Button>
+<Badge color="primary" outline="true" shadow="true">primary</Badge>
 ```

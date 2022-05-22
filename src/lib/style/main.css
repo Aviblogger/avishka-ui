@@ -1,20 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap");
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 90%;
-  line-height: 1;
-  width: 100%;
-  background: #fffcf8;
-}
 
 :root {
   --background: #dfe3e8;
@@ -123,7 +107,7 @@ html {
   box-shadow: var(--shadow);
 }
 
-button {
+.btn {
   padding: 6px 16px;
   min-width: 64px;
   font-weight: 600;
@@ -139,7 +123,7 @@ button {
   border: var(--border-none);
   transition: var(--transition);
 }
-button:hover {
+.btn:hover {
   background-color: var(--bg-hover);
   color: var(--text-hover);
   box-shadow: var(--shadow-hover);
@@ -153,7 +137,7 @@ button:hover {
   align-items: center;
 }
 
-svg {
+.btn svg {
   margin: 0.4rem 0.4rem 0.4rem 0;
 }
 

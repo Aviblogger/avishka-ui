@@ -24,7 +24,7 @@ const Button = _ref => {
   } = _ref;
   console.log(color);
   return /*#__PURE__*/_react.default.createElement("button", {
-    className: "".concat(color).concat(outline ? " outline" : "").concat(shadow ? " shadow " : "").concat(className ? className : "").concat(icon ? ' icon' : '', " ").concat(fontSize ? "text-".concat(fontSize) : '').concat(border ? " border-".concat(border) : ''),
+    className: "btn ".concat(color).concat(outline ? " outline" : "").concat(shadow ? " shadow " : "").concat(className ? className : "").concat(icon ? ' icon' : '', " ").concat(fontSize ? "text-".concat(fontSize) : '').concat(border ? " border-".concat(border) : ''),
     onClick: onclick,
     type: type
   }, icon, children);

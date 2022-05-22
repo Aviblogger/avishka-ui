@@ -15,7 +15,7 @@ const Button = ({
   console.log(color);
   return (
     <button
-      className={`${color}${outline ? " outline" : ""}${shadow ? " shadow " : ""}${className ? className : ""}${icon? ' icon':''} ${fontSize? `text-${fontSize}`:''}${border? ` border-${border}`:''}`}
+      className={`btn ${color}${outline ? " outline" : ""}${shadow ? " shadow " : ""}${className ? className : ""}${icon? ' icon':''} ${fontSize? `text-${fontSize}`:''}${border? ` border-${border}`:''}`}
       onClick={onclick}
       type={type}
     >
