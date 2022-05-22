@@ -22,7 +22,6 @@ const Typography = _ref => {
     fontSize,
     border
   } = _ref;
-  console.log(color);
   return (() => {
     switch (type) {
       case 'h1':

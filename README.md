@@ -8,7 +8,7 @@ react js custom components using avishka.css
 import { Button, Badge } from "avishka-ui";
 ```
 
-Button 
+##### Button 
 ```
 <Button color="primary">primary</Button>
 <Button color="secondary">secondary</Button>
@@ -18,7 +18,7 @@ Button
 <Button color="success">success</Button>
 ``` 
 
-Badge
+##### Badge
 ```
 <Badge color="primary">primary</Badge>
 <Badge color="secondary">secondary</Badge>
@@ -28,13 +28,13 @@ Badge
 <Badge color="success">success</Badge>
 ``` 
 
-Outline 
+###### Outline 
 ```
 <Button color="primary" outline="true">primary</Button>
 <Badge color="primary" outline="true">primary</Badge>
 ```
 
-Shadow
+###### Shadow
 ```
 <Button color="primary" shadow="true">primary</Button>
 <Badge color="primary" shadow="true">primary</Badge>

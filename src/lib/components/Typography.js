@@ -12,7 +12,6 @@ const Typography = ({
  fontSize,
  border
   }) => {
-  console.log(color);
  return (
    
         (() => {
