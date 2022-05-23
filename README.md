@@ -3,24 +3,33 @@ react js custom components using avishka.css
 
 👉  [Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
 
+## Installation
+
 ```jsx
 npm i avishka-ui
 ```
-### or
+or
 ```
 yarn add avishka-ui
 ```
 
-```
+## Usage
+
+```js
+// src/App.js
 import { Button, Badge } from "avishka-ui";
 ```
 
 ### for next.js
-```
-import { Button, Badge } from "avishka-ui/next";
-
+```js
+// pages/_app.js
 import 'avishka-ui/dist/style/main.css'
+```
+now you can use
 
+```js
+// pages/index.js
+import { Button, Badge } from "avishka-ui/next";
 ```
 
 
