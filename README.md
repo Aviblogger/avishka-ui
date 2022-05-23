@@ -3,10 +3,10 @@ react js custom components using avishka.css
 
 👉  [Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
 
-```
+```jsx
 npm i avishka-ui
 ```
-#### or
+### or
 ```
 yarn add avishka-ui
 ```
@@ -25,7 +25,7 @@ import 'avishka-ui/dist/style/main.css'
 
 
 ### Button 
-```jsx
+```js
 <Button color="primary">primary</Button>
 <Button color="secondary">secondary</Button>
 <Button color="error">error</Button>
@@ -35,7 +35,7 @@ import 'avishka-ui/dist/style/main.css'
 ``` 
 
 ### Badge
-```jsx
+```js
 <Badge color="primary">primary</Badge>
 <Badge color="secondary">secondary</Badge>
 <Badge color="error">error</Badge>
@@ -45,19 +45,23 @@ import 'avishka-ui/dist/style/main.css'
 ``` 
 
 #### Outline 
-```jsx
+```js
 <Button color="primary" outline="true">primary</Button>
 <Badge color="primary" outline="true">primary</Badge>
 ```
 
 #### Shadow
-```jsx
+```js
 <Button color="primary" shadow="true">primary</Button>
 <Badge color="primary" shadow="true">primary</Badge>
 ```
 
 #### Outline and Shadow
-```jsx
+```js
 <Button color="primary" outline="true" shadow="true">primary</Button>
 <Badge color="primary" outline="true" shadow="true">primary</Badge>
 ```
+
+button with icon, and border fontSize and more . . .
+
+👉  [Check Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
