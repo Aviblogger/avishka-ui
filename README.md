@@ -6,7 +6,7 @@ react js custom components using avishka.css
 ```
 npm i avishka-ui
 ```
-or
+#### or
 ```
 yarn add avishka-ui
 ```
@@ -15,7 +15,7 @@ yarn add avishka-ui
 import { Button, Badge } from "avishka-ui";
 ```
 
-for next.js
+### for next.js
 ```
 import { Button, Badge } from "avishka-ui/next";
 
