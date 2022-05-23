@@ -62,6 +62,6 @@ import 'avishka-ui/dist/style/main.css'
 <Badge color="primary" outline="true" shadow="true">primary</Badge>
 ```
 
-button with icon, and border fontSize and more . . .
+button with icon, border, fontSize and more . . .
 
 👉  [Check Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
