@@ -35,12 +35,12 @@ import { Button, Badge, Typography, IconButton, Image, Alert } from "avishka-ui/
 
 ### Components
 
-[Button](https://avishka-ui.vercel.app/components/button)
-[Badge](https://avishka-ui.vercel.app/components/badge)
-[Typography](https://avishka-ui.vercel.app/components/typography)
-[IconButton](https://avishka-ui.vercel.app/components/icon-button)
-[Image](https://avishka-ui.vercel.app/components/image)
-[Alert](https://avishka-ui.vercel.app/components/alert)
+[Button](https://avishka-ui.vercel.app/components/button)  
+[Badge](https://avishka-ui.vercel.app/components/badge)  
+[Typography](https://avishka-ui.vercel.app/components/typography)  
+[IconButton](https://avishka-ui.vercel.app/components/icon-button)  
+[Image](https://avishka-ui.vercel.app/components/image)  
+[Alert](https://avishka-ui.vercel.app/components/alert)  
 
 
 
@@ -51,7 +51,7 @@ button with icon, round, fontSize and more . . .
 
 
 ## Author
-Author  - [Avishka Devinda](https://avishka-devinda.vercel.app)
-Twitter - [@avishkadev](https://twitter.com/avishkadev)
+Author  - [Avishka Devinda](https://avishka-devinda.vercel.app)  
+Twitter - [@avishkadev](https://twitter.com/avishkadev)  
 
 
