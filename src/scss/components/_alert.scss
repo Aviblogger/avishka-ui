@@ -1,8 +1,8 @@
 @use "../abstracts" as *;
 
-.avishka-ui--btn {
+.avishka-ui--alert {
   padding: 6px 16px;
-  min-width: 64px;
+  min-width: 20rem;
   font-weight: 600;
   line-height: 1.7142857142857142;
   cursor: pointer;
@@ -22,16 +22,4 @@
     box-shadow: var(--shadow-hover);
     border: var(--border-none);
   }
-}
-
-.avishka-ui--icon{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-
-.avishka-ui--btn svg {
-  margin: 0rem 0.4rem 0 0;
 }

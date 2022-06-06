@@ -20,14 +20,18 @@ const Button = _ref => {
     type,
     icon,
     fontSize,
-    border
+    round
   } = _ref;
-  console.log(color);
-  return /*#__PURE__*/_react.default.createElement("button", {
-    className: "btn ".concat(color).concat(outline ? " outline" : "").concat(shadow ? " shadow " : "").concat(className ? className : "").concat(icon ? ' icon' : '', " ").concat(fontSize ? "text-".concat(fontSize) : '').concat(border ? " border-".concat(border) : ''),
-    onClick: onclick,
-    type: type
-  }, icon, children);
+  //const className = props.className
+  return (
+    /*#__PURE__*/
+    // <button className={`${props.color}${props.outline?' outline':''}${props.shadow?' shadow':''}${className?` ${className}`:''}`} >{props.children}</button>
+    _react.default.createElement("button", {
+      className: "avishka-ui--btn ".concat(color ? "avishka-ui--".concat(color) : '').concat(outline ? " avishka-ui--outline" : "").concat(shadow ? " avishka-ui--shadow " : "").concat(className ? className : "").concat(icon ? ' avishka-ui--icon' : '').concat(fontSize ? " avishka-ui--text-".concat(fontSize) : '').concat(round ? " avishka-ui--round-".concat(round) : ''),
+      onClick: onclick,
+      type: type
+    }, icon, children)
+  );
 };
 
 var _default = Button;

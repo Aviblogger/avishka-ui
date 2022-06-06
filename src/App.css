@@ -1,3 +1,27 @@
+body{
+  background: var(--clr-gray-80);
+}
+.avishka-ui--avatar-custom
+{
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.avishka-ui--btn-custom
+{
+margin-top: 10px;
+}
+
+.flex{
+  display: flex;
+ align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
 .App {
   text-align: center;
 }

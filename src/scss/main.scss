@@ -1,11 +1,17 @@
 @use 'theme/root';
 @use 'components/buttons';
+@use 'components/iconButton';
 @use 'components/badge';
+@use 'components/typography';
+@use 'components/alert';
 @use 'abstracts/colors' as *;
 @use 'abstracts/type-scale' as *;
 @use 'abstracts/media-query' as *;
 @use 'abstracts/font-size' as *;
 @use 'abstracts/border-radius' as *;
+@use 'abstracts/avatar' as *;
+@use 'abstracts/width' as *;
+
 
 :root {
 	@each $color, $shades in $colors {
@@ -32,11 +38,11 @@
 
 @each $color, $shades in $colors {
 	@each $shade, $value in $shades{
-		.text-#{"" + $color}-#{$shade}{
+		.avishka-ui--text-#{"" + $color}-#{$shade}{
 			color: var(--clr-#{"" + $color}-#{$shade});
 			//color: $value;
 		}
-		.bg-#{"" + $color}-#{$shade}{
+		.avishka-ui--bg-#{"" + $color}-#{$shade}{
 			background-color: var(--clr-#{"" + $color}-#{$shade});
 		}
 	}
@@ -48,7 +54,7 @@
       @each $size, $value in $font-size {
       			@if $screen-size == small{
 
-      .fs-#{"" + $size}{
+      .avishka-ui--fs-#{"" + $size}{
 			font-size: var(--fs-#{$size});
 				}
 		}
@@ -58,7 +64,7 @@
 
 @each $font-sizes, $shades in $font-size{
 		@each $shade, $value in $shades{
-	.text-#{$font-sizes}{
+	.avishka-ui--text-#{$font-sizes}{
 			font-size: $shade;
 		}	
 }
@@ -67,8 +73,29 @@
 
 @each $border-radiuses, $shades in $border-radius{
 		@each $shade, $value in $shades{
-	.border-#{$border-radiuses}{
+	.avishka-ui--round-#{$border-radiuses}{
 			border-radius: $shade;
+		}	
+}
+}
+
+
+@each $avatars, $shades in $avatar{
+		@each $shade, $value in $shades{
+	.avishka-ui--avatar-#{$avatars}{
+			width: $shade;
+			height: $shade;
+
+		}	
+}
+}
+
+
+@each $widths, $shades in $width{
+		@each $shade, $value in $shades{
+	.avishka-ui--w-#{$widths}{
+			width: $shade;
+
 		}	
 }
 }

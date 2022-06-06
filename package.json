@@ -6,9 +6,13 @@
     "react",
     "components",
     "ui",
-    "avishka-ui"
+    "avishka-ui",
+    "react-component",
+    "reactjs",
+    "react.js",
+    "ui-components"
   ],
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "license":"MIT",
   "main": "dist/index.js",

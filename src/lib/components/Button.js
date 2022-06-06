@@ -10,12 +10,13 @@ const Button = ({
  type,
  icon,
  fontSize,
- border
+ round
   }) => {
-  console.log(color);
+  //const className = props.className
   return (
+    // <button className={`${props.color}${props.outline?' outline':''}${props.shadow?' shadow':''}${className?` ${className}`:''}`} >{props.children}</button>
     <button
-      className={`btn ${color}${outline ? " outline" : ""}${shadow ? " shadow " : ""}${className ? className : ""}${icon? ' icon':''} ${fontSize? `text-${fontSize}`:''}${border? ` border-${border}`:''}`}
+      className={`avishka-ui--btn ${color?`avishka-ui--${color}`:''}${outline ? " avishka-ui--outline" : ""}${shadow ? " avishka-ui--shadow " : ""}${className ? className : ""}${icon? ' avishka-ui--icon':''}${fontSize? ` avishka-ui--text-${fontSize}`:''}${round? ` avishka-ui--round-${round}`:''}`}
       onClick={onclick}
       type={type}
     >

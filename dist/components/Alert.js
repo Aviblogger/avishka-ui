@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Badge = _ref => {
+const Alert = _ref => {
   let {
     color,
     outline,
@@ -26,13 +26,13 @@ const Badge = _ref => {
   return (
     /*#__PURE__*/
     // <button className={`${props.color}${props.outline?' outline':''}${props.shadow?' shadow':''}${className?` ${className}`:''}`} >{props.children}</button>
-    _react.default.createElement("div", {
-      className: "avishka-ui--badge ".concat(color ? "avishka-ui--".concat(color) : '').concat(outline ? " avishka-ui--outline" : "").concat(shadow ? " avishka-ui--shadow " : "").concat(className ? className : "").concat(icon ? ' avishka-ui--icon' : '', " ").concat(fontSize ? " avishka-ui--text-".concat(fontSize) : '').concat(round ? " avishka-ui--round-".concat(round) : ''),
+    _react.default.createElement("button", {
+      className: "avishka-ui--alert ".concat(color ? "avishka-ui--".concat(color) : '').concat(outline ? " avishka-ui--outline" : "").concat(shadow ? " avishka-ui--shadow " : "").concat(className ? className : "").concat(icon ? ' avishka-ui--icon' : '').concat(fontSize ? " avishka-ui--text-".concat(fontSize) : '').concat(round ? " avishka-ui--round-".concat(round) : ''),
       onClick: onclick,
       type: type
     }, icon, children)
   );
 };
 
-var _default = Badge;
+var _default = Alert;
 exports.default = _default;

@@ -1,22 +1,7 @@
 @use "../abstracts" as *;
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap");
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: inherit;
-}
 
-html {
-  box-sizing: border-box;
-  font-size: 90%;
-  line-height: 1;
-  width: 100%;
-  background: #fffcf8;
-}
 
 :root {
   --background: #{$default-bg};
@@ -33,7 +18,7 @@ html {
   --border-none: none;
 }
 
-.primary {
+.avishka-ui--primary {
   --background: #{$primary-bg};
   --color: #{$text-light};
   --shadow: #{$primary-shadow};
@@ -46,7 +31,7 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-.secondary {
+.avishka-ui--secondary {
   --background: #{$secondary-bg};
   --color: #{$text-light};
   --shadow: #{$secondary-shadow};
@@ -59,7 +44,7 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-.warning {
+.avishka-ui--warning {
   --background: #{$warning-bg};
   --color: #{$text-dark};
   --shadow: #{$warning-shadow};
@@ -72,7 +57,7 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-.info {
+.avishka-ui--info {
   --background: #{$info-bg};
   --color: #{$text-light};
   --shadow: #{$info-shadow};
@@ -85,7 +70,7 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-.success {
+.avishka-ui--success {
   --background: #{$success-bg};
   --color: #{$text-light};
   --shadow: #{$success-shadow};
@@ -98,7 +83,7 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-.error {
+.avishka-ui--error {
   --background: #{$error-bg};
   --color: #{$text-light};
   --shadow: #{$error-shadow};
@@ -111,7 +96,21 @@ html {
   --shadow-hover: #{$default-shadow-none};
 }
 
-.outline {
+.avishka-ui--white {
+  --background: #{$white-bg};
+  --color: #{$text-dark};
+  --text-bg: #{$white-bg};
+  
+}
+
+.avishka-ui--black {
+  --background: #{$black-bg};
+  --color: #{$text-light};
+  --text-bg: #{$text-dark};
+  
+}
+
+.avishka-ui--outline {
   --background: var(--background-none);
   --color: var(--text-bg);
   --border-none: var(--border);
@@ -121,6 +120,6 @@ html {
   }
 }
 
-.shadow {
+.avishka-ui--shadow {
   box-shadow: var(--shadow);
 }

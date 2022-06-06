@@ -1,11 +1,11 @@
 # Avishka-UI
-react js custom components using avishka.css
+React js custom component library
 
 👉  [Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
 
 ## Installation
 
-```jsx
+```
 npm i avishka-ui
 ```
 or
@@ -17,7 +17,7 @@ yarn add avishka-ui
 
 ```js
 // src/App.js
-import { Button, Badge } from "avishka-ui";
+import { Button, Badge, Typography, IconButton, Image, Alert } from "avishka-ui";
 ```
 
 ### for next.js
@@ -29,48 +29,29 @@ now you can use
 
 ```js
 // pages/index.js
-import { Button, Badge } from "avishka-ui/next";
+import { Button, Badge, Typography, IconButton, Image, Alert } from "avishka-ui/next";
 ```
 
 
-### Button 
-```js
-<Button color="primary">primary</Button>
-<Button color="secondary">secondary</Button>
-<Button color="error">error</Button>
-<Button color="warning">warning</Button>
-<Button color="info">info</Button>
-<Button color="success">success</Button>
-``` 
+### Components
 
-### Badge
-```js
-<Badge color="primary">primary</Badge>
-<Badge color="secondary">secondary</Badge>
-<Badge color="error">error</Badge>
-<Badge color="warning">warning</Badge>
-<Badge color="info">info</Badge>
-<Badge color="success">success</Badge>
-``` 
+[Button](https://avishka-ui.vercel.app/components/button)
+[Badge](https://avishka-ui.vercel.app/components/badge)
+[Typography](https://avishka-ui.vercel.app/components/typography)
+[IconButton](https://avishka-ui.vercel.app/components/icon-button)
+[Image](https://avishka-ui.vercel.app/components/image)
+[Alert](https://avishka-ui.vercel.app/components/alert)
 
-#### Outline 
-```js
-<Button color="primary" outline="true">primary</Button>
-<Badge color="primary" outline="true">primary</Badge>
-```
 
-#### Shadow
-```js
-<Button color="primary" shadow="true">primary</Button>
-<Badge color="primary" shadow="true">primary</Badge>
-```
 
-#### Outline and Shadow
-```js
-<Button color="primary" outline="true" shadow="true">primary</Button>
-<Badge color="primary" outline="true" shadow="true">primary</Badge>
-```
 
-button with icon, border, fontSize and more . . .
+button with icon, round, fontSize and more . . .
 
 👉  [Check Documentation - https://avishka-ui.vercel.app ](https://avishka-ui.vercel.app/)
+
+
+## Author
+Author  - [Avishka Devinda](https://avishka-devinda.vercel.app)
+Twitter - [@avishkadev](https://twitter.com/avishkadev)
+
+
