@@ -46,18 +46,19 @@ Object.defineProperty(exports, "Typography", {
   }
 });
 
-var _Badge = _interopRequireDefault(require("./components/Badge"));
+var _Badge = _interopRequireDefault(require("./dist/components/Badge"));
 
-var _Button = _interopRequireDefault(require("./components/Button"));
+var _Button = _interopRequireDefault(require("./dist/components/Button"));
 
-var _IconButton = _interopRequireDefault(require("./components/IconButton"));
+var _IconButton = _interopRequireDefault(require("./dist/components/IconButton"));
 
-var _Typography = _interopRequireDefault(require("./components/Typography"));
+var _Typography = _interopRequireDefault(require("./dist/components/Typography"));
 
-var _Avatar = _interopRequireDefault(require("./components/Avatar"));
+var _Avatar = _interopRequireDefault(require("./dist/components/Avatar"));
 
-var _Image = _interopRequireDefault(require("./components/Image"));
+var _Image = _interopRequireDefault(require("./dist/components/Image"));
 
-var _Alert = _interopRequireDefault(require("./components/Alert"));
+var _Alert = _interopRequireDefault(require("./dist/components/Alert"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
